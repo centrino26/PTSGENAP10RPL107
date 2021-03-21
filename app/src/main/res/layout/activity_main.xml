@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/text">
+    </ImageView>
+
+
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/txtponsel"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_round"
+        android:text="Nomor telepon, nama penggun, atau email"
+        android:textSize="19dp"
+        android:gravity="center">
+    </EditText>
+
+
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/txtsandi"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_round"
+        android:text="Kata Sandi"
+        android:textSize="20dp"
+        android:gravity="center">
+    </EditText>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:backgroundTint="#b2dffc"
+        android:text="Login">
+    </Button>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/atau">
+    </ImageView>
+
+
+    <ImageButton
+        android:layout_margin="20dp"
+        android:id="@+id/imageButton"
+        android:layout_width="379dp"
+        android:layout_height="56dp"
+        app:srcCompat="@drawable/facebook" />
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Dengan mendaftar, anda menyetujui Ketentuan, Kebijakan data, dan kebijakan Cookie kami" />
+
+
+</LinearLayout>'
+
+
+</LinearLayout>
